@@ -1,6 +1,6 @@
-# Payment API - Complete Implementation
+# Payment API
 
-A production-ready payment processing API built with Django REST Framework, featuring async transaction processing, refunds, webhooks, and comprehensive testing.
+A payment processing API built with Django REST Framework, featuring async transaction processing, refunds, webhooks, and comprehensive testing.
 
 ## Features
 
@@ -12,7 +12,7 @@ A production-ready payment processing API built with Django REST Framework, feat
 ✅ JWT + Token authentication   
 ✅ Redis caching with pagination    
 ✅ Comprehensive error logging  
-✅ Query optimizations 
+✅ Query optimizations   
 ✅ 10+ test cases   
 
 ## Quick Start
