@@ -154,13 +154,6 @@ docker-compose exec web python manage.py shell
 - **PostgreSQL**: Database (port 5432)
 - **Redis**: Cache + task queue (port 6379)
 
-## Design Decisions
-
-1. **Payment Key Validation**: Required for all transactions to ensure proper authorization
-2. **Idempotency**: Middleware-based with atomic checks to prevent duplicate requests
-3. **Caching**: Short TTL (30s) for lists/details to balance freshness and performance
-4. **Webhooks**: Retry 2 times (3 total attempts) with 3-second delays
-5. **Logging**: Comprehensive logging to console and file for debugging
 
 ## Testing
 
