@@ -12,8 +12,8 @@ A production-ready payment processing API built with Django REST Framework, feat
 ✅ JWT + Token authentication   
 ✅ Redis caching with pagination    
 ✅ Comprehensive error logging  
-✅ Query optimizations (no N+1) 
-✅ 15+ test cases   
+✅ Query optimizations 
+✅ 10+ test cases   
 
 ## Quick Start
 
@@ -24,7 +24,7 @@ A production-ready payment processing API built with Django REST Framework, feat
 
 1. **Clone and enter directory:**
 ```bash
-git clone <your-repo>
+git clone https://github.com/hasan00gad148/payment-api
 cd payment-api
 ```
 
@@ -168,7 +168,7 @@ docker-compose exec web python manage.py shell
 docker-compose exec web python manage.py test
 ```
 
-Expected output: 15 tests passed
+Expected output: 14 tests passed
 
 ## Troubleshooting
 

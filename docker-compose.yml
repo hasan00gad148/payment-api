@@ -19,7 +19,9 @@ services:
 
   web:
     build: .
-    command: sh -c "python manage.py migrate && gunicorn core.wsgi:application --bind 0.0.0.0:8000 --access-logfile - --error-logfile -"
+#    command: sh -c "python manage.py migrate && gunicorn core.wsgi:application --bind 0.0.0.0:8000 --access-logfile - --error-logfile -"
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+
     volumes:
       - ./web:/usr/src/app
     ports:
